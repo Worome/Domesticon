@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.trianacodes.script.domesticon.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.trianacodes.script.domesticon.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.trianacodes.script.domesticon.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.trianacodes.script.domesticon.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_bancos"
+        android:name="com.trianacodes.script.domesticon.ui.bancos.bancos"
+        android:label="@string/menu_bancos"
+        tools:layout="@layout/fragment_bancos" />
+
+    <fragment
+        android:id="@+id/nav_estados"
+        android:name="com.trianacodes.script.domesticon.ui.estados.estados"
+        android:label="@string/menu_estados"
+        tools:layout="@layout/fragment_estados" />
+
+    <fragment
+        android:id="@+id/nav_gastos_fijos"
+        android:name="com.trianacodes.script.domesticon.ui.gastos_fijos.gastos_fijos"
+        android:label="@string/menu_gastos_fijos"
+        tools:layout="@layout/fragment_gastos_fijos" />
+
+    <fragment
+        android:id="@+id/nav_gastos_periodicos"
+        android:name="com.trianacodes.script.domesticon.ui.gastos_periodicos.gastos_periodicos"
+        android:label="@string/menu_gastos_periodicos"
+        tools:layout="@layout/fragment_gastos_periodicos" />
+
+    <fragment
+        android:id="@+id/nav_ingresos_fijos"
+        android:name="com.trianacodes.script.domesticon.ui.ingresos_fijos.ingresos_fijos"
+        android:label="@string/menu_ingresos_fijos"
+        tools:layout="@layout/fragment_ingresos_fijos" />
+
+    <fragment
+        android:id="@+id/nav_ingresos_extras"
+        android:name="com.trianacodes.script.domesticon.ui.ingresos_extras.ingresos_extras"
+        android:label="@string/menu_ingresos_extras"
+        tools:layout="@layout/fragment_ingresos_extras" />
+
+</navigation>

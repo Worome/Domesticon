@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Domesticon</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Domesticon</string>
+    <string name="nav_header_subtitle">trianacodes@trianacodes.com</string>
+    <string name="nav_header_desc">Cabecera de navegación</string>
+    <string name="action_settings">Configuración</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Utilidades</string>
+    <string name="menu_gastos_fijos">Gastos Fijos</string>
+    <string name="menu_gastos_periodicos">Gastos Periódicos</string>
+    <string name="menu_gastos_terjeta">Gastos de Tarjeta</string>
+    <string name="menu_ingresos_fijos">Ingresos Fijos</string>
+    <string name="menu_ingresos_extras">Ingresos Extras</string>
+    <string name="menu_estados">Estados conceptos</string>
+    <string name="menu_bancos">Bancos</string>
+    <string name="tv_estado_id">Identificador de estado</string>
+    <string name="et_estado_descripcion">Descripción</string>
+    <string name="tv_banco_id">Identificador del banco</string>
+    <string name="et_banco_nombre">Nombre</string>
+    <string name="et_banco_saldo">Saldo</string>
+    <string name="btn_estado_anadir">Añadir</string>
+    <string name="btn_estado_listado">Listado</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="cuadro_dialogo_mensaje">Mensaje</string>
+    <string name="cuadro_dialogo_boton">Aceptar</string>
+
+    <string name="Errores">Error</string>
+    <string name="mensaje_error">Se ha producido el siguiente error:</string>
+    <string name="tv_gastos_fijo_identificador">Identificador</string>
+    <string name="et_gastos_fijos_descripcion">Descripción</string>
+    <string name="et_gastos_fijos_importe">Importe</string>
+    <string name="et_gatos_periodicos">Indica Meses separados por comas</string>
+    <string name="menu_submenu">Tablas Auxiliares</string>
+
+
+</resources>
